@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/workspaces/dev_env/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/dev_env_project.dir/src/main.cpp.o -c /workspaces/dev_env/src/main.cpp",
+  "file": "/workspaces/dev_env/src/main.cpp",
+  "output": "CMakeFiles/dev_env_project.dir/src/main.cpp.o"
+}
+]
