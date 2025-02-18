@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/dev_env/src/main.cpp" "CMakeFiles/dev_env_project.dir/src/main.cpp.o" "gcc" "CMakeFiles/dev_env_project.dir/src/main.cpp.o.d"
+  "/workspaces/dev_env/src/Logger.cc" "CMakeFiles/LoggerExample.dir/src/Logger.cc.o" "gcc" "CMakeFiles/LoggerExample.dir/src/Logger.cc.o.d"
+  "/workspaces/dev_env/src/main.cc" "CMakeFiles/LoggerExample.dir/src/main.cc.o" "gcc" "CMakeFiles/LoggerExample.dir/src/main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

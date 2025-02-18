@@ -1,8 +1,14 @@
 [
 {
   "directory": "/workspaces/dev_env/build",
-  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/dev_env_project.dir/src/main.cpp.o -c /workspaces/dev_env/src/main.cpp",
-  "file": "/workspaces/dev_env/src/main.cpp",
-  "output": "CMakeFiles/dev_env_project.dir/src/main.cpp.o"
+  "command": "/usr/bin/c++ -DENABLE_LOGGING  -g -std=gnu++17 -o CMakeFiles/LoggerExample.dir/src/main.cc.o -c /workspaces/dev_env/src/main.cc",
+  "file": "/workspaces/dev_env/src/main.cc",
+  "output": "CMakeFiles/LoggerExample.dir/src/main.cc.o"
+},
+{
+  "directory": "/workspaces/dev_env/build",
+  "command": "/usr/bin/c++ -DENABLE_LOGGING  -g -std=gnu++17 -o CMakeFiles/LoggerExample.dir/src/Logger.cc.o -c /workspaces/dev_env/src/Logger.cc",
+  "file": "/workspaces/dev_env/src/Logger.cc",
+  "output": "CMakeFiles/LoggerExample.dir/src/Logger.cc.o"
 }
 ]

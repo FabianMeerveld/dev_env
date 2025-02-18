@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /workspaces/dev_env/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/dev_env_project.dir/all
+all: CMakeFiles/LoggerExample.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/dev_env_project.dir/clean
+clean: CMakeFiles/LoggerExample.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/dev_env_project.dir
+# Target rules for target CMakeFiles/LoggerExample.dir
 
 # All Build rule for target.
-CMakeFiles/dev_env_project.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_env_project.dir/build.make CMakeFiles/dev_env_project.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_env_project.dir/build.make CMakeFiles/dev_env_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/dev_env/build/CMakeFiles --progress-num=1,2 "Built target dev_env_project"
-.PHONY : CMakeFiles/dev_env_project.dir/all
+CMakeFiles/LoggerExample.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoggerExample.dir/build.make CMakeFiles/LoggerExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoggerExample.dir/build.make CMakeFiles/LoggerExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/dev_env/build/CMakeFiles --progress-num=1,2,3 "Built target LoggerExample"
+.PHONY : CMakeFiles/LoggerExample.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/dev_env_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/dev_env/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dev_env_project.dir/all
+CMakeFiles/LoggerExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/dev_env/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LoggerExample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/dev_env/build/CMakeFiles 0
-.PHONY : CMakeFiles/dev_env_project.dir/rule
+.PHONY : CMakeFiles/LoggerExample.dir/rule
 
 # Convenience name for target.
-dev_env_project: CMakeFiles/dev_env_project.dir/rule
-.PHONY : dev_env_project
+LoggerExample: CMakeFiles/LoggerExample.dir/rule
+.PHONY : LoggerExample
 
 # clean rule for target.
-CMakeFiles/dev_env_project.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_env_project.dir/build.make CMakeFiles/dev_env_project.dir/clean
-.PHONY : CMakeFiles/dev_env_project.dir/clean
+CMakeFiles/LoggerExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoggerExample.dir/build.make CMakeFiles/LoggerExample.dir/clean
+.PHONY : CMakeFiles/LoggerExample.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

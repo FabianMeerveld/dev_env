@@ -1,2 +1,2 @@
-# Empty dependencies file for dev_env_project.
+# Empty dependencies file for LoggerExample.
 # This may be replaced when dependencies are built.

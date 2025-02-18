@@ -20,7 +20,8 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//No help, variable specified on the command line.
+//Choose the type of build, options are: None Debug Release RelWithDebInfo
+// MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
@@ -147,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=dev_env_project
+CMAKE_PROJECT_NAME:STATIC=LoggerExample
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -215,13 +216,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-dev_env_project_BINARY_DIR:STATIC=/workspaces/dev_env/build
+LoggerExample_BINARY_DIR:STATIC=/workspaces/dev_env/build
 
 //Value Computed by CMake
-dev_env_project_IS_TOP_LEVEL:STATIC=ON
+LoggerExample_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-dev_env_project_SOURCE_DIR:STATIC=/workspaces/dev_env
+LoggerExample_SOURCE_DIR:STATIC=/workspaces/dev_env
 
 
 ########################

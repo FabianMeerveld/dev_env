@@ -39,7 +39,7 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
@@ -847,7 +847,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "dev_env_project"
+			"value" : "LoggerExample"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1146,19 +1146,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "dev_env_project_BINARY_DIR",
+			"name" : "LoggerExample_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1170,7 +1158,7 @@
 			"value" : "/workspaces/dev_env/build"
 		},
 		{
-			"name" : "dev_env_project_IS_TOP_LEVEL",
+			"name" : "LoggerExample_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1182,7 +1170,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "dev_env_project_SOURCE_DIR",
+			"name" : "LoggerExample_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1192,6 +1180,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/workspaces/dev_env"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

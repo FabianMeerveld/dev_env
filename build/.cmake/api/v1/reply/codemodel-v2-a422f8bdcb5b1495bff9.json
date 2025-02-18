@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.16.3"
+						"string" : "3.10"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "dev_env_project",
+					"name" : "LoggerExample",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "dev_env_project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dev_env_project-Debug-80fd00aba0e7a567eebf.json",
-					"name" : "dev_env_project",
+					"id" : "LoggerExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LoggerExample-Debug-263d2b821da1564840f3.json",
+					"name" : "LoggerExample",
 					"projectIndex" : 0
 				}
 			]
